@@ -1,7 +1,13 @@
 <template name='home'>
 	<div id='home'>
-		<nav>
-		<a href="{{pathFor 'signup'}}">sign up</a> | <a href="{{pathFor 'signin'}}">log in</a>
+		<nav class="">
+			<div class="title">
+				<a href="/">MeteorSemantic</a>
+			</div>
+			<div class="nav">
+				<a href="{{pathFor 'signup'}}">sign up</a>
+				<a href="{{pathFor 'signin'}}" class="select">log in</a>
+			</div>
 		</nav>
 		<header>
 			<div class="holder">

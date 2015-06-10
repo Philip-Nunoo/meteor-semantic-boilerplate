@@ -3,6 +3,40 @@
 #home{
 	height: 100%;
 
+	// Nav
+	nav {
+		position: fixed;
+		width: 100%;
+
+		.title{
+			float: left;
+		}
+
+		.nav{
+			float: right;
+
+			&:after{
+				clear: both;
+			}
+		}
+		a{
+			font-size: 18px;
+			display: inline-block;
+			padding: 7px 14px;
+			margin: 12px 0px;
+			color: #15A651;;
+			text-transform: capitalize;
+
+			&.select{
+				border-radius: 100px;
+				padding-left: 40px;
+				padding-right: 40px;
+				background-color: rgba(21, 166, 81, 1);
+				color: #FFF;
+			}
+		}
+	}
+
 	// Header
 	header{
 		height: 98%;
@@ -11,8 +45,8 @@
 		background-image: url('/imgs/background.jpg');
 		background-attachment: fixed;
 		background-position: 50% 50%;
-  		background-repeat: no-repeat;
-  		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: cover;
 
 		.holder{
 			padding-top: 17%;
@@ -78,20 +112,20 @@
 		background-image: url('/imgs/office.jpg');
 		background-attachment: fixed;
 		background-position: 50% 50%;
-  		background-repeat: no-repeat;
-  		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: cover;
 
-  		.dark-overlay{
+		.dark-overlay{
 			padding: 8%;
-  			background-color: rgba(0,0,0,0.3);
-  		}
+			background-color: rgba(0,0,0,0.3);
+		}
 
-  		.holder{
-  			width: 70%;
-  			margin: auto;
-  			font-size: 24px;
-  			text-align: center;
-  		}
+		.holder{
+			width: 70%;
+			margin: auto;
+			font-size: 24px;
+			text-align: center;
+		}
 	}
 	// Footer 
 	footer{
