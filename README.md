@@ -21,7 +21,7 @@ atmospherejs.com/aldeed/autoform)
 
 * __Accounts UI__ Read More at: [Accounts UI](https://atmospherejs.com/meteor/accounts-ui)
 
-* __Accounts Base__
+* __Accounts Base__ Guide for core at: [Core](https://github.com/meteor-useraccounts/core/blob/master/Guide.md)
 
 * __Accounts Password__
 

@@ -34,3 +34,15 @@ Router.map ->
 
 	        if (user)
 	        	Router.go '/dashboard'
+	        	
+
+	@route 'signup',
+		name: 'signup'
+		path: '/sign-up'
+		template: 'signup'
+		layoutTemplate: 'blankLayout'
+		redirect: ->
+	        user = Meteor.user()
+
+	        if (user)
+	        	Router.go '/dashboard'
