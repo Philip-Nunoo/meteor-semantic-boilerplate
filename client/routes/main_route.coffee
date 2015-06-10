@@ -23,3 +23,14 @@ Router.map ->
 	@route 'admin', 
 		path: '/admin',
 		# controller:'AdminController'
+
+	@route 'sign-in',
+		name: 'signin'
+		path: '/login'
+		template: 'login'
+		layoutTemplate: 'blankLayout'
+		redirect: ->
+	        user = Meteor.user()
+
+	        if (user)
+	        	Router.go '/dashboard'

@@ -19,6 +19,15 @@ atmospherejs.com/aldeed/autoform)
 
 * __Aldeed collection__ Read More at: [Aldeed collection](meteor add aldeed:collection2)
 
+* __Accounts UI__ Read More at: [Accounts UI](https://atmospherejs.com/meteor/accounts-ui)
+
+* __Accounts Base__
+
+* __Accounts Password__
+
+* __Useraccounts semantic-ui__
+
+
 ## To start using clone the repository ##
 
 You need to install meteor unto your system. For meteor installation instruction go to [Meteor installation](https://www.meteor.com/install) and you can read on the meteor documentation from the [basic doc](http://docs.meteor.com/#/basic/) or the [full api](http://docs.meteor.com/#/full/).
