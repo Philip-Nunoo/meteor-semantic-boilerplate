@@ -5,8 +5,13 @@
 				<a href="/">MeteorSemantic</a>
 			</div>
 			<div class="nav">
+				{{#if currentUser }}
+				<a href="{{pathFor 'signOut'}}" class="">Logout</a>
+				<a href="{{pathFor 'dashboard'}}" class="select">Dashboard</a>
+				{{else}}
 				<a href="{{pathFor 'signup'}}">sign up</a>
 				<a href="{{pathFor 'signin'}}" class="select">log in</a>
+				{{/if}}
 			</div>
 		</nav>
 		<header>
